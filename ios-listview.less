@@ -1,0 +1,20 @@
+@border-color: #aba7a1;
+@height: 37px;
+@font-size: 18px;
+@blue: #007bff;
+
+.ios-list-view{
+	li{
+		font-size: @font-size;
+		height: @height;
+		line-height: @height;
+		text-align: center;
+		color: @blue;
+		border-bottom: 1px solid @border-color;
+
+		&:last-child{
+			border-bottom: none !important;
+		}
+	}
+
+}
