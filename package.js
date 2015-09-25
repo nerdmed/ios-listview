@@ -15,6 +15,6 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2');
-    api.use(['less', 'templating'], 'client');
+    api.use(['less@2.5.0', 'templating'], 'client');
     api.addFiles(['ios-listview.html', 'ios-listview.js', 'ios-listview.less'], 'client');
 });
